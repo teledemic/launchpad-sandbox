@@ -1,0 +1,29 @@
+{
+  "name": "launchpad-sandbox",
+  "version": "1.0.0",
+  "description": "Launchpad Sandbox",
+  "main": "index.ts",
+  "scripts": {
+    "start": "ts-node index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/teledemic/launchpad-sandbox.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/teledemic/launchpad-sandbox/issues"
+  },
+  "homepage": "https://github.com/teledemic/launchpad-sandbox#readme",
+  "dependencies": {
+    "@types/node": "^7.0.18",
+    "midi": "^0.9.5",
+    "speaker": "^0.3.0",
+    "ts-node": "^3.0.4",
+    "tslint": "^5.2.0",
+    "typescript": "^2.3.2",
+    "web-audio-engine": "^0.13.0"
+  }
+}
